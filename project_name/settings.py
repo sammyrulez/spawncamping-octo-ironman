@@ -115,6 +115,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'gunicorn',
     'south',
+    'django-crispy-forms',
     
 )
 
@@ -148,4 +149,4 @@ LOGGING = {
 }
 
 if DEBUG:
-    INSTALLED_APPS = INSTALLED_APPS + ('django_coverage')
+    INSTALLED_APPS = INSTALLED_APPS + ('django_coverage',)
