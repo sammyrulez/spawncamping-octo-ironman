@@ -13,6 +13,8 @@ MANAGERS = ADMINS
 
 import dj_database_url
 
+FIXTURE_DIRS = [os.path.join(PROJECT_ROOT,'fixtures') , ]
+
 DATABASES = {}
 
 DATABASES['default'] =  dj_database_url.config(default="sqlite:///%s/dev.db" % (PROJECT_ROOT,))
