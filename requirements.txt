@@ -3,5 +3,5 @@ South==0.8.1
 dj-database-url==0.2.1
 psycopg2==2.4.6 
 gunicorn==0.17.2
-django-crispy-forms=1.2.8
+django-crispy-forms==1.2.8
 django-classy-tags==0.4
